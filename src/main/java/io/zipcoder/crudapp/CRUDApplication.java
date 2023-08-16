@@ -13,6 +13,7 @@ public class CRUDApplication {
 		SpringApplication.run(CRUDApplication.class, args);
 	}
 
+
 	@Bean
 	ServletRegistrationBean h2servletRegistration(){
 		ServletRegistrationBean registrationBean = new ServletRegistrationBean( new WebServlet());
